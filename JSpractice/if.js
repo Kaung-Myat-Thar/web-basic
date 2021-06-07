@@ -4,7 +4,6 @@ let BMI = (weight/height**2) * 703;
 
 if( BMI < 18.5 )
 {
-
     alert("You are underweight.");
 }
 else if( BMI >= 18.5 && BMI<25)
