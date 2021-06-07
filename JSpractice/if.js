@@ -1,9 +1,9 @@
 let height = prompt("Type your height in inches","70  (5 feet 10 inches)");
 let weight = prompt("Type your weight in lbs","120");
 let BMI = (weight/height**2) * 703;
-alert(BMI);
 
-if( BMI < 18.5 ){
+if( BMI < 18.5 )
+{
 
     alert("You are underweight.");
 }

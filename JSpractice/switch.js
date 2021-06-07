@@ -2,8 +2,6 @@ let height = prompt("This program will calaulate your BMI.\nType your height in 
 let weight = prompt("Type your weight in lbs","120");
 let BMI = (weight/height**2) * 703;
 
-alert(BMI);
-
 switch(true)
 {
     case ( BMI < 18.5 ):
