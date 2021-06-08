@@ -1,4 +1,4 @@
-let height = prompt("Type your height in inches","70  (5 feet 10 inches)");
+let height = prompt("This program will calaulate your BMI.\nType your height in inches","70  (5 feet 10 inches)");
 let weight = prompt("Type your weight in lbs","120");
 let BMI = (weight/height**2) * 703;
 
