@@ -17,8 +17,8 @@ var labelValue = document.createElement('label');
 labelValue.innerHTML = options[choices];
 form.appendChild(choiceSelection);
 form.appendChild(labelValue);
-var mybr = document.createElement('br');
-form.appendChild(mybr);
+var br = document.createElement('br');
+form.appendChild(br);
 }
 
 parentDiv.replaceChild(form,currentOl);
